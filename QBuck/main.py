@@ -20,6 +20,10 @@ def check():
 #     print(cur2)
 #     return jsonify(cur2)
 
+@app.route("/get")
+def checkBasic():
+    return "OK"
+
 
 
 @app.route('/post')
